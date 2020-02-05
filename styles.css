@@ -1,9 +1,10 @@
 body {
-    background-color: ghostwhite;
+    background-color: white;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    text-align: -webkit-center;
 }
 
 .doodle {
@@ -11,4 +12,15 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding-top: 109px;
+}
+
+#searchbar {
+    width: 50%;
+    margin-top: 25px;
+    border-radius: 0;
+}
+
+.searchform {
+    padding: 10px
 }
