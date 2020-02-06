@@ -3,8 +3,38 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     text-align: -webkit-center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+li {
+    display: inline;
+    padding-right: 10px;
+}
+
+li a {
+    color: black;
+}
+
+li a:hover {
+    color: black;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.nav-links-left {
+    float: left;
+}
+
+.nav-links-right {
+    float: right;
 }
 
 .doodle {
@@ -16,9 +46,15 @@ body {
 }
 
 #searchbar {
-    width: 50%;
     margin-top: 25px;
     border-radius: 0;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 40px;
+    width: 482px;
+    margin: 0 auto;
 }
 
 .searchform {
