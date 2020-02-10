@@ -64,29 +64,3 @@ li a:hover {
 .searchform {
     padding: 10px
 }
-
-.footer{
-    bottom: 0;
-    height: 40px;
-    position: fixed;
-    width: 100%;
-    background: #f2f2f2;
-    border-top: 1px solid #e4e4e4;
-}
-
-.btm-links-left {
-    float: left;
-    padding-left: 27px;
-    margin: 0 !important;
-}
-
-.btm-links-right {
-    float: right;
-    padding: left 27px;
-    margin: 0 !important;
-}
-
-.btm-links {
-    padding-left: 27px;
-    margin: 0 !important;
-}
