@@ -5,8 +5,9 @@ body {
     margin-right: auto;
     text-align: -webkit-center;
     font-family: arial,sans-serif;
-    font-size: 10px;;
+    font-size: 14px;
 }
+
 div {
     display: block;
 }
@@ -46,7 +47,7 @@ li a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 75%;
     padding-top: 109px;
 }
 
@@ -95,6 +96,7 @@ button:hover {
     bottom: 0;
     padding-bottom: 0;
     width: 100%;
+    font-size: 12px;
 }
 
 .footer-right {
@@ -107,4 +109,20 @@ button:hover {
     float: left;
     padding: 13px;
     padding-left: 27px;
+}
+
+#apps {
+    width: 17px;
+    height: 17px;
+    margin: 10px;
+}
+
+#sign-in {
+    margin-right: 20px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: #fff
 }
