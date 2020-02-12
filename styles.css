@@ -126,3 +126,8 @@ button:hover {
     background: -webkit-linear-gradient(top,#4387fd,#4683ea);
     color: #fff
 }
+
+#search-doodle {
+    display: block;
+    float: left;
+}
