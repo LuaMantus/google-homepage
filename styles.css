@@ -127,7 +127,14 @@ button:hover {
     color: #fff
 }
 
-#search-doodle {
-    display: block;
-    float: left;
+#results-doodle {
+    position: absolute;
+    height: 30px;
+    width: 92px;
+    margin: 30px;
+}
+
+.navbar-search {
+    height: 54px;
+    color: black;
 }
