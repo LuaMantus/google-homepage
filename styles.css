@@ -1,4 +1,10 @@
-body {
+html {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+}
+    body {
     background-color: white;
     display: block;
     margin-left: auto;
@@ -36,6 +42,7 @@ li a:hover {
 }
 
 .nav-links-left {
+    display: inline-block;
     float: left;
 }
 
@@ -127,14 +134,8 @@ button:hover {
     color: #fff
 }
 
-#results-doodle {
-    position: absolute;
-    height: 30px;
-    width: 92px;
-    margin: 30px;
+#results-img {
+    position: relative;
+    top: 10px;
 }
 
-.navbar-search {
-    height: 54px;
-    color: black;
-}
