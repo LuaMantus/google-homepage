@@ -54,7 +54,7 @@ li a:hover {
     padding-top: 109px;
 }
 
-#searchbar {
+.searchbar {
     margin-top: 25px;
     border-radius: 0;
     display: flex;
@@ -140,7 +140,23 @@ footer {
 }
 
 #results-img {
-    position: relative;
-    top: 10px;
+    position: absolute;
+    top: 22px;
+    left: 20px;
+    height: 30px;
+    width: 92px;
 }
 
+#results-search-bar {
+    position: relative;
+    top: -17px;
+    left: 140px;
+    width: 638px;
+}
+
+.nav-menu {
+    position: absolute;
+    top: 70px;
+    float: left;
+    left: 150px;
+}
