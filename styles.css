@@ -156,7 +156,19 @@ footer {
 
 .nav-menu {
     position: absolute;
-    top: 70px;
-    float: left;
-    left: 150px;
+    display: block;
+    height: 58px;
+    margin-top: 50px;
+    left: -20px;
+}
+
+.nav-menu li {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 158px;
+}
+
+.settings-tools {
+    display: inline;
 }
