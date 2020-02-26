@@ -80,7 +80,7 @@ li a:hover {
 }
 
 button {
-    background-image: -webkit -linear-gradiant(top,#f5f5f5,#f1f1f1);
+    background-image: -webkit-linear-gradiant(top,#f5f5f5,#f1f1f1);
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     color: #5f6368;
@@ -154,7 +154,8 @@ footer {
     width: 638px;
 }
 
-.nav-menu {
+
+.nav-list {
     position: absolute;
     display: block;
     height: 58px;
@@ -162,13 +163,14 @@ footer {
     left: -20px;
 }
 
-.nav-menu li {
+.nav-list li {
     display: inline-block;
     position: relative;
     top: 10px;
     left: 158px;
 }
 
-.settings-tools {
-    display: inline;
+#settings-tools {
+    display: inline-block;
+    margin-left: 200px;
 }
